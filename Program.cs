@@ -1,6 +1,8 @@
 using Starterkit.Data;
 using Starterkit._keenthemes;
 using Starterkit._keenthemes.libs;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +17,8 @@ builder.Services.AddSingleton<IBootstrapBase, BootstrapBase>();
 IConfiguration configuration = new ConfigurationBuilder()
                             .AddJsonFile("themesettings.json")
                             .Build();
-
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySql(configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version())));
 var app = builder.Build();
 
 KTThemeSettings.init(configuration);

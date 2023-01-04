@@ -45,12 +45,13 @@ var KTSigninGeneral = function() {
 		);	
     }
 
-    var handleSubmitDemo = function(e) {
+    var handleSubmitDemo = function (e) {
+        
         // Handle form submit
         submitButton.addEventListener('click', function (e) {
             // Prevent button default action
             e.preventDefault();
-
+            console.log("submit");
             // Validate form
             validator.validate().then(function (status) {
                 if (status == 'Valid') {
