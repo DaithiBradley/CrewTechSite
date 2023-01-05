@@ -995,19 +995,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\David Bradley\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Develop\\work\\web\\Blazor login\\blazor_demo1\\Starterkit\\Starterkit.csproj",
+      "projectUniqueName": "C:\\Users\\David Bradley\\source\\repos\\TheKanky\\CrewTechSite\\Starterkit.csproj",
       "projectName": "Starterkit",
-      "projectPath": "G:\\Develop\\work\\web\\Blazor login\\blazor_demo1\\Starterkit\\Starterkit.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "G:\\Develop\\work\\web\\Blazor login\\blazor_demo1\\Starterkit\\obj\\",
+      "projectPath": "C:\\Users\\David Bradley\\source\\repos\\TheKanky\\CrewTechSite\\Starterkit.csproj",
+      "packagesPath": "C:\\Users\\David Bradley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David Bradley\\source\\repos\\TheKanky\\CrewTechSite\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\David Bradley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1015,7 +1020,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/VdcHljqcAejewWWyegjgbxywZtQ2KgeBuQGDXqCBlKow4puK6y/api": {}
       },
       "frameworks": {
         "net6.0": {
@@ -1067,7 +1074,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
