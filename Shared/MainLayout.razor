@@ -1,0 +1,127 @@
+﻿@using Layout._Helpers;
+@using Authentication.Shared.Partials.SidebarLayout.Header;
+@using Authentication.Shared.Partials.SidebarLayout.Header._Menu;
+@inherits LayoutComponentBase
+@inject IJSRuntime JSRuntime
+@inject NavigationManager MyNavigationManager
+@layout MasterInit
+
+<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+    <!--begin::Page-->
+    <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+        <div id="kt_app_header" class="app-header">
+            <!--begin::Header container-->
+            <div class="app-container container-fluid d-flex align-items-stretch justify-content-between">
+                <!--begin::sidebar mobile toggle-->
+                <div class="d-flex align-items-center d-lg-none ms-n2 me-2" title="Show sidebar menu">
+                   
+                </div>
+                <!--end::sidebar mobile toggle-->
+                <!--begin::Mobile logo-->
+                <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
+                    <a href="?page=index" class="d-lg-none">
+                        <img alt="Logo" src="assets/media/logos/default-small.svg" class="h-30px" />
+                    </a>
+                </div>
+                <!--end::Mobile logo-->
+                <!--begin::Header wrapper-->
+                <div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1" id="kt_app_header_wrapper">
+                    <_Menu></_Menu>
+                    <_Navbar></_Navbar>
+                </div>
+                <!--end::Header wrapper-->
+            </div>
+            <!--end::Header container-->
+        </div>
+        <!--begin::Wrapper-->
+        <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
+            <NavMenu></NavMenu>
+            <!--begin::Main-->
+            <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+                <!--begin::Content wrapper-->
+                <div class="d-flex flex-column flex-column-fluid">
+                    
+                    <!--begin::Content-->
+                    <div id="kt_app_content" class="app-content flex-column-fluid">
+                        <!--begin::Content container-->
+                        <div id="kt_app_content_container" class="app-container container-fluid">
+                            @Body
+                        </div>
+                        <!--end::Content container-->
+                    </div>
+                    <!--end::Content-->
+                </div>
+                <!--end::Content wrapper-->
+    
+            </div>
+            <!--end:::Main-->
+        </div>
+        <!--end::Wrapper-->
+    </div>
+    <!--end::Page-->
+</div>
+<!--end::App-->
+
+
+
+@code {
+    bool collapseNavMenu = true;
+
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    void CollapseNavMenu()
+    {
+        collapseNavMenu = true;
+    }
+
+    private IKTThemeHelpers _helper;
+
+    protected override void OnInitialized() // = On Page Load
+    {
+        _helper = new KTThemeHelpers(JSRuntime);
+        _helper.addBodyAttribute("data-kt-app-page-loading", "on");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        _helper = new KTThemeHelpers(JSRuntime);
+
+        _helper.addBodyAttribute("data-kt-app-reset-transition", "true");
+
+        _helper.addBodyAttribute("data-kt-app-layout", "dark-sidebar");
+        _helper.addBodyAttribute("data-kt-app-header-fixed", "false");
+        _helper.addBodyAttribute("data-kt-app-sidebar-fixed", "true");
+        _helper.addBodyAttribute("data-kt-app-sidebar-hoverable", "true");
+        _helper.addBodyAttribute("data-kt-app-sidebar-push-header", "true");
+        _helper.addBodyAttribute("data-kt-app-sidebar-push-toolbar", "true");
+        _helper.addBodyAttribute("data-kt-app-sidebar-push-footer", "true");
+        _helper.addBodyAttribute("data-kt-app-toolbar-enabled", "true");
+
+        _helper.addBodyClass("app-default");
+
+        JSRuntime.InvokeVoidAsync("KTModalUpgradePlan.init");
+        JSRuntime.InvokeVoidAsync("KTCreateApp.init");
+        JSRuntime.InvokeVoidAsync("KTModalUserSearch.init");
+        JSRuntime.InvokeVoidAsync("KTModalNewTarget.init");
+        JSRuntime.InvokeVoidAsync("KTAppSidebar.init");
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await Task.Delay(300);
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", "/assets/plugins/global/plugins.bundle.js");
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", "/assets/js/scripts.bundle.js");
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", "/assets/js/custom/widgets.js");
+            await JSRuntime.InvokeVoidAsync("document.body.removeAttribute", "data-kt-app-reset-transition");
+            await JSRuntime.InvokeVoidAsync("document.body.removeAttribute", "data-kt-app-page-loading");
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", MyNavigationManager.ToAbsoluteUri("assets/plugins/global/plugins.bundle.js"));
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", MyNavigationManager.ToAbsoluteUri("assets/js/scripts.bundle.js")); 
+        }
+    }
+}
