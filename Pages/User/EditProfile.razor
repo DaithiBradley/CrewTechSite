@@ -1,52 +1,116 @@
 @page "/user/editprofile"
 
-<!--begin::Card widget 7-->
-<div class="card card-flush h-md-50 mb-5 mb-xl-10">
-	<!--begin::Header-->
-	<div class="card-header pt-5">
-		<!--begin::Title-->
-		<div class="card-title d-flex flex-column">
-			<!--begin::Amount-->
-			<span class="fs-2hx fw-bold text-dark me-2 lh-1 ls-n2">357</span>
-			<!--end::Amount-->
-			<!--begin::Subtitle-->
-			<span class="text-gray-400 pt-1 fw-semibold fs-6">Professionals</span>
-			<!--end::Subtitle-->
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject UserManager<IdentityUser> UserManager;
+@using Microsoft.AspNetCore.Identity;
+<!--begin::Input group-->
+
+<div class="row mb-6">
+	<!--begin::Label-->
+	<label class="col-lg-4 col-form-label fw-semibold fs-6">Avatar</label>
+	<!--end::Label-->
+	<!--begin::Col-->
+	<div class="col-lg-8">
+		<!--begin::Image input-->
+		<div class="image-input image-input-outline" data-kt-image-input="true" style="background-image: url('/assets/media/svg/avatars/blank.svg')">
+			<!--begin::Preview existing avatar-->
+			<div class="image-input-wrapper w-125px h-125px" style="background-image: url(/assets/media/avatars/300-1.jpg)"></div>
+			<!--end::Preview existing avatar-->
+			<!--begin::Label-->
+			<label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" aria-label="Change avatar" data-bs-original-title="Change avatar" data-kt-initialized="1">
+				<i class="bi bi-pencil-fill fs-7"></i>
+				<!--begin::Inputs-->
+				<input type="file" name="avatar" accept=".png, .jpg, .jpeg">
+				<input type="hidden" name="avatar_remove">
+				<!--end::Inputs-->
+			</label>
+			<!--end::Label-->
+			<!--begin::Cancel-->
+			<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" aria-label="Cancel avatar" data-bs-original-title="Cancel avatar" data-kt-initialized="1">
+				<i class="bi bi-x fs-2"></i>
+			</span>
+			<!--end::Cancel-->
+			<!--begin::Remove-->
+			<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" aria-label="Remove avatar" data-bs-original-title="Remove avatar" data-kt-initialized="1">
+				<i class="bi bi-x fs-2"></i>
+			</span>
+			<!--end::Remove-->
 		</div>
-		<!--end::Title-->
+		<!--end::Image input-->
+		<!--begin::Hint-->
+		<div class="form-text">Allowed file types: png, jpg, jpeg.</div>
+		<!--end::Hint-->
 	</div>
-	<!--end::Header-->
-	<!--begin::Card body-->
-	<div class="card-body d-flex flex-column justify-content-end pe-0">
-		<!--begin::Title-->
-		<span class="fs-6 fw-bolder text-gray-800 d-block mb-2">Today’s Heroes</span>
-		<!--end::Title-->
-		<!--begin::Users group-->
-		<div class="symbol-group symbol-hover flex-nowrap">
-			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
-				<span class="symbol-label bg-warning text-inverse-warning fw-bold">A</span>
-			</div>
-			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
-				<img alt="Pic" src="assets/media/avatars/300-11.jpg" />
-			</div>
-			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-				<span class="symbol-label bg-primary text-inverse-primary fw-bold">S</span>
-			</div>
-			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-				<img alt="Pic" src="assets/media/avatars/300-2.jpg" />
-			</div>
-			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Perry Matthew">
-				<span class="symbol-label bg-danger text-inverse-danger fw-bold">P</span>
-			</div>
-			<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
-				<img alt="Pic" src="assets/media/avatars/300-12.jpg" />
-			</div>
-			<a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">
-				<span class="symbol-label bg-dark text-gray-300 fs-8 fw-bold">+42</span>
-			</a>
-		</div>
-		<!--end::Users group-->
-	</div>
-	<!--end::Card body-->
+	<!--end::Col-->
 </div>
-<!--end::Card widget 7-->
+
+<div class="d-flex flex-column mb-7 fv-row">
+	<!--begin::Label-->
+	<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
+		<span class="required">First Name</span>
+		<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="first name"></i>
+	</label>
+	<input type="text" class="form-control form-control-solid" placeholder="" name="first_name" value />
+	<!--end::Label-->
+</div>
+<div class="d-flex flex-column mb-7 fv-row">
+	<!--begin::Label-->
+	<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
+		<span class="required">Last Name</span>
+		<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="last name"></i>
+	</label>
+	<!--end::Label-->
+	<input type="text" class="form-control form-control-solid" placeholder="" name="last_name" value="Doe" />
+</div>
+<div class="d-flex flex-column mb-7 fv-row">
+	<!--begin::Label-->
+	<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
+		<span class="required">Company Name</span>
+		<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="company name"></i>
+	</label>
+	<!--end::Label-->
+	<input type="text" class="form-control form-control-solid" placeholder="" name="company_name" value="Loop Inc." />
+</div>
+
+<div class="d-flex flex-column mb-7 fv-row">
+	<!--begin::Label-->
+	<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
+		<span class="required">Contract Phone</span>
+		<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="contract phone"></i>
+	</label>
+	<!--end::Label-->
+	<input type="text" class="form-control form-control-solid" placeholder="" name="phone" value="+45678967456" />
+</div>
+
+<div class="d-flex flex-column mb-7 fv-row">
+	<!--begin::Label-->
+	<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
+		<span class="required">Email Address</span>
+		<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="email address"></i>
+	</label>
+	<!--end::Label-->
+	<input type="text" class="form-control form-control-solid" placeholder="" name="card_name" value="anna.krox@loop.com" />
+</div>
+
+<div class="d-flex flex-column mb-7 fv-row">
+	<!--begin::Label-->
+	<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
+		<span class="required">Company Site</span>
+		<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="company site"></i>
+	</label>
+	<!--end::Label-->
+	<input type="text" class="form-control form-control-solid" placeholder="" name="card_name" value="loop" />
+</div>
+<!--end::Input group-->
+<!--begin::Input group-->
+@code {
+	string Message = "";
+	private string UserName;
+	private string UserEmail;
+	protected override async Task OnInitializedAsync()
+	{
+		var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+		var user = authState.User;
+		UserName = user.Identity.Name;
+	}
+}
