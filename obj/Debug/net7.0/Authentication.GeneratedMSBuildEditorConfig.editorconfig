@@ -9,277 +9,285 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Authentication
 build_property.RootNamespace = Authentication
-build_property.ProjectDir = G:\Develop\work\web\Blazor login\blazor-authentication\
+build_property.ProjectDir = C:\Users\David Bradley\Source\Repos\TheKanky\CrewTechSite\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\Develop\work\web\Blazor login\blazor-authentication
+build_property.MSBuildProjectDirectory = C:\Users\David Bradley\Source\Repos\TheKanky\CrewTechSite
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/App.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/Counter.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/Dashboards/Index.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/Dashboards/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/FetchData.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/FetchUser.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/FetchUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/Shifts/AvailableShifts.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/Shifts/AvailableShifts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpZnRzXEF2YWlsYWJsZVNoaWZ0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/User/EditProfile.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/User/EditProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxFZGl0UHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/User/List.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/User/List.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/User/MyProfile.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/User/MyProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxNeVByb2ZpbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/LoginDisplay.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/MasterInit.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/MasterInit.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1hc3RlckluaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/Partials/_AdvancedOptions.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/Partials/_AdvancedOptions.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXFBhcnRpYWxzXF9BZHZhbmNlZE9wdGlvbnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/Partials/_Empty.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/Partials/_Empty.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXFBhcnRpYWxzXF9FbXB0eS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/Partials/_FormDropdown.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/Partials/_FormDropdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXFBhcnRpYWxzXF9Gb3JtRHJvcGRvd24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/Partials/_Main.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/Partials/_Main.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXFBhcnRpYWxzXF9NYWluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/Partials/_Preferences.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/Partials/_Preferences.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXFBhcnRpYWxzXF9QcmVmZXJlbmNlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/Partials/_Results.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/Partials/_Results.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXFBhcnRpYWxzXF9SZXN1bHRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/Search/_Dropdown.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/Search/_Dropdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcU2VhcmNoXF9Ecm9wZG93bi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/_Menu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/_Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX01lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__Dashboards.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__Dashboards.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19EYXNoYm9hcmRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__Layouts.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__Layouts.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19MYXlvdXRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__Pages.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__Pages.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19QYWdlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__PagesAccount.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__PagesAccount.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19QYWdlc0FjY291bnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__PagesAuthentication.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__PagesAuthentication.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19QYWdlc0F1dGhlbnRpY2F0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__PagesGeneral.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__PagesGeneral.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19QYWdlc0dlbmVyYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__PagesUtilities.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__PagesUtilities.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19QYWdlc1V0aWxpdGllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Menu/__PagesWidgets.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Menu/__PagesWidgets.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX01lbnVcX19QYWdlc1dpZGdldHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Header/_Navbar.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Header/_Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxIZWFkZXJcX05hdmJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/Partials/_AdvancedOptions.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/Partials/_AdvancedOptions.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcUGFydGlhbHNcX0FkdmFuY2VkT3B0aW9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/Partials/_Empty.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/Partials/_Empty.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcUGFydGlhbHNcX0VtcHR5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/Partials/_FormDropdown.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/Partials/_FormDropdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcUGFydGlhbHNcX0Zvcm1Ecm9wZG93bi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/Partials/_Main.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/Partials/_Main.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcUGFydGlhbHNcX01haW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/Partials/_Preferences.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/Partials/_Preferences.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcUGFydGlhbHNcX1ByZWZlcmVuY2VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/Partials/_Results.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/Partials/_Results.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcUGFydGlhbHNcX1Jlc3VsdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/Search/_Dropdown.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/Search/_Dropdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxTZWFyY2hcX0Ryb3Bkb3duLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/_Footer.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/_Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxfRm9vdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/_Header.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/_Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxfSGVhZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/_PageTitle.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/_PageTitle.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxfUGFnZVRpdGxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/HeaderLayout/_Toolbar.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/HeaderLayout/_Toolbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXEhlYWRlckxheW91dFxfVG9vbGJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/Menus/_Menu1.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/Menus/_Menu1.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXE1lbnVzXF9NZW51MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/Menus/_Menu2.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/Menus/_Menu2.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXE1lbnVzXF9NZW51Mi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/Menus/_Menu3.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/Menus/_Menu3.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXE1lbnVzXF9NZW51My5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/Menus/_NotificationsMenu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/Menus/_NotificationsMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXE1lbnVzXF9Ob3RpZmljYXRpb25zTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/Menus/_QuickLinksMenu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/Menus/_QuickLinksMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXE1lbnVzXF9RdWlja0xpbmtzTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/Menus/_UserAccountMenu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/Menus/_UserAccountMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXE1lbnVzXF9Vc2VyQWNjb3VudE1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/_Menu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/_Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9NZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__Dashboards.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__Dashboards.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fRGFzaGJvYXJkcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__Layouts.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__Layouts.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fTGF5b3V0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__Pages.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__Pages.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fUGFnZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__PagesAccount.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__PagesAccount.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fUGFnZXNBY2NvdW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__PagesAuthentication.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__PagesAuthentication.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fUGFnZXNBdXRoZW50aWNhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__PagesGeneral.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__PagesGeneral.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fUGFnZXNHZW5lcmFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__PagesUtilities.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__PagesUtilities.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fUGFnZXNVdGlsaXRpZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Menu/__PagesWidgets.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Menu/__PagesWidgets.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9NZW51XF9fUGFnZXNXaWRnZXRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Header/_Navbar.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Header/_Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcSGVhZGVyXF9OYXZiYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/SidebarLayout/Search/_Dropdown.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/Search/_Dropdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcU2VhcmNoXF9Ecm9wZG93bi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/ThemeMode/_Main.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/_PageTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcX1BhZ2VUaXRsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/SidebarLayout/_Toolbar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFNpZGViYXJMYXlvdXRcX1Rvb2xiYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/ThemeMode/_Main.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFRoZW1lTW9kZVxfTWFpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/Partials/ThemeMode/__Menu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/Partials/ThemeMode/__Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhcnRpYWxzXFRoZW1lTW9kZVxfX01lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/SurveyPrompt.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/_LayoutScripts.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/_LayoutScripts.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9MYXlvdXRTY3JpcHRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/_Imports.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/MainLayout.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r78ufog1uy
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Shared/NavMenu.razor]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-2lflexv6v1
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Areas/Identity/Pages/Account/LogOut.cshtml]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Areas/Identity/Pages/Account/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/Error.cshtml]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Develop/work/web/Blazor login/blazor-authentication/Pages/_Host.cshtml]
+[C:/Users/David Bradley/Source/Repos/TheKanky/CrewTechSite/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

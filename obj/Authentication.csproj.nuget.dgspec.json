@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Develop\\work\\web\\Blazor login\\blazor-authentication\\Authentication.csproj": {}
+    "C:\\Users\\David Bradley\\Source\\Repos\\TheKanky\\CrewTechSite\\Authentication.csproj": {}
   },
   "projects": {
-    "G:\\Develop\\work\\web\\Blazor login\\blazor-authentication\\Authentication.csproj": {
+    "C:\\Users\\David Bradley\\Source\\Repos\\TheKanky\\CrewTechSite\\Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Develop\\work\\web\\Blazor login\\blazor-authentication\\Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\David Bradley\\Source\\Repos\\TheKanky\\CrewTechSite\\Authentication.csproj",
         "projectName": "Authentication",
-        "projectPath": "G:\\Develop\\work\\web\\Blazor login\\blazor-authentication\\Authentication.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "G:\\Develop\\work\\web\\Blazor login\\blazor-authentication\\obj\\",
+        "projectPath": "C:\\Users\\David Bradley\\Source\\Repos\\TheKanky\\CrewTechSite\\Authentication.csproj",
+        "packagesPath": "C:\\Users\\David Bradley\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David Bradley\\Source\\Repos\\TheKanky\\CrewTechSite\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David Bradley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/VdcHljqcAejewWWyegjgbxywZtQ2KgeBuQGDXqCBlKow4puK6y/api": {}
         },
         "frameworks": {
           "net7.0": {
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
