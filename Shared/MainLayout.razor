@@ -1,6 +1,8 @@
 ﻿@using Layout._Helpers;
+@using Authentication.Shared.Partials.SidebarLayout;
 @using Authentication.Shared.Partials.SidebarLayout.Header;
 @using Authentication.Shared.Partials.SidebarLayout.Header._Menu;
+@using Layout;
 @inherits LayoutComponentBase
 @inject IJSRuntime JSRuntime
 @inject NavigationManager MyNavigationManager
@@ -40,7 +42,7 @@
             <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
                 <!--begin::Content wrapper-->
                 <div class="d-flex flex-column flex-column-fluid">
-                    
+                    <_Toolbar></_Toolbar>
                     <!--begin::Content-->
                     <div id="kt_app_content" class="app-content flex-column-fluid">
                         <!--begin::Content container-->
@@ -65,19 +67,6 @@
 
 
 @code {
-    bool collapseNavMenu = true;
-
-    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-
-    void CollapseNavMenu()
-    {
-        collapseNavMenu = true;
-    }
 
     private IKTThemeHelpers _helper;
 
@@ -118,10 +107,11 @@
             await JSRuntime.InvokeAsync<IJSObjectReference>("import", "/assets/plugins/global/plugins.bundle.js");
             await JSRuntime.InvokeAsync<IJSObjectReference>("import", "/assets/js/scripts.bundle.js");
             await JSRuntime.InvokeAsync<IJSObjectReference>("import", "/assets/js/custom/widgets.js");
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", MyNavigationManager.ToAbsoluteUri("assets/plugins/global/plugins.bundle.js"));
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", MyNavigationManager.ToAbsoluteUri("assets/js/scripts.bundle.js"));
             await JSRuntime.InvokeVoidAsync("document.body.removeAttribute", "data-kt-app-reset-transition");
             await JSRuntime.InvokeVoidAsync("document.body.removeAttribute", "data-kt-app-page-loading");
-            await JSRuntime.InvokeAsync<IJSObjectReference>("import", MyNavigationManager.ToAbsoluteUri("assets/plugins/global/plugins.bundle.js"));
-            await JSRuntime.InvokeAsync<IJSObjectReference>("import", MyNavigationManager.ToAbsoluteUri("assets/js/scripts.bundle.js")); 
+           
         }
     }
 }
