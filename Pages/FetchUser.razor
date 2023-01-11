@@ -1,7 +1,8 @@
 @page "/fetchdata/user"
-
+@using Microsoft.AspNetCore.Identity
 @using Authentication.Data
 @inject WeatherForecastService ForecastService
+@inject UserManager<IdentityUser> UserManager
 
 <h1>Weather forecast</h1>
 
@@ -23,13 +24,11 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var forecast in UserManager.Users)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@forecast.Email</td>
+         
                 </tr>
             }
         </tbody>
@@ -42,5 +41,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        Console.WriteLine("My debug output.", UserManager.Users);
     }
+    
 }
